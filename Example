@@ -1,0 +1,9 @@
+[!] you@example.com - found in 2 breach(es):
+
+  - LinkedIn (2012-05-05, verified)
+      Data exposed: Email addresses, Passwords
+  - Adobe (2013-10-04, verified)
+      Data exposed: Email addresses, Password hints, Passwords, Usernames
+
+Recommendation: change passwords for these services (and anywhere you reused
+them), enable 2FA, and use a password manager going forward.
