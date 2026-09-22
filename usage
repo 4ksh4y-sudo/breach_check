@@ -1,0 +1,15 @@
+# Check which breaches an email appears in (free)
+python3 breachcheck.py --email you@example.com
+
+# Also check a password (hidden input, k-anonymity)
+python3 breachcheck.py --email you@example.com --check-password
+
+# Machine-readable output
+python3 breachcheck.py --email you@example.com --json
+
+# Batch a list of emails, one per line
+python3 breachcheck.py --batch emails.txt
+
+# Optional: use HIBP for the email check (needs a paid key)
+export HIBP_API_KEY="your-key-here"
+python3 breachcheck.py --email you@example.com --provider hibp
