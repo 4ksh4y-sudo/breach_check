@@ -5,10 +5,6 @@ known data breaches, and whether a password has been seen in breach dumps.
 
 **Free by default.** No API key, no signup, no account.
 
-**It will never show you a breached password.** No legitimate breach service
-returns plaintext passwords, and a tool that did would be a credential-harvesting
-tool. `breachcheck` reports exposure status only.
-
 ## What it does
 
 - **Email check** — which breaches an address appears in, and what data classes
